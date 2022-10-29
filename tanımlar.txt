@@ -1,0 +1,39 @@
+EDA NEDİR ? 
+  İstatistikte, keşifsel veri analizi (exploratory data analysis; EDA), 
+genellikle istatistiksel grafikler ve diğer veri görselleştirme yöntemlerini kullanarak
+temel özelliklerini özetlemek için veri kümelerini analiz etme yaklaşımıdır
+
+OUTLİER DETECTİON NEDİR ? 
+
+ Veri analizinde, anomali tespiti, verilerin çoğunluğundan önemli ölçüde farklılaşarak şüphe uyandıran nadir öğelerin, 
+olayların veya gözlemlerin tanımlanmasıdır. Tipik olarak anormal öğeler, 
+banka dolandırıcılığı, yapısal bir kusur, tıbbi sorunlar veya bir metindeki hatalar gibi bir tür soruna dönüşecektir.
+
+
+PCA NEDİR ? 
+
+ Türkçesi “Temel Bileşenler Analizi” olan PCA tanıma, sınıflandırma, görüntü sıkıştırma alanlarında kullanılan yararlı
+bir istatistiksel tekniktir.
+ Temel amacı yüksek boyutlu verilerde en yüksek varyans ile veri setini tutmak ancak bunu yaparken 
+boyut indirgemeyi sağlamak olan bir tekniktir.
+
+NCA NEDİR ? 
+
+  NCA, leave one out sınıflandırma performansını maksimize edecek şekilde 
+input verilerinin doğrusal dönüşümünü kullanarak mesafe metriğini öğrenme yöntemidir.
+
+Temel fark, PCA'nın denetimsiz olması ve NCA'nın denetlenmesidir.
+
+NCA , aynı etiketleri paylaşan noktaların komşuluklarının farklı etiketlere sahip noktalardan daha sıkı olduğu bir boşluk bulmak
+için k-en yakın komşulara benzer bir teknik kullanan bir algoritmadır.
+
+Sınıflandırma ve boyut indirgeme için kullanılabilse de, esas olarak yalnızca ayırıcı hiper düzlemi değil, 
+bir metrik öğrenmek istediğiniz mesafe metrik öğrenimi için kullanılır. Bu uzaklık metriği daha sonra Öklid uzaklığı veya diğer saf uzaklık metrikleri yerine kullanılabilir. NCA'daki boyutsallık indirgemesi, d' nin orijinal boyutların sayısı ve k'nin yeni tercih edilen boyut olduğu d X d yerine a k X d matrisi öğrenilerek yapılır.
+
+PCA , en az bilgiden vazgeçerken boyutların çıkarılabileceği bir boşluk bularak boyutsallığı azaltmaya odaklanan istatistiksel 
+bir yaklaşımdır.
+
+Dolayısıyla iki yaklaşım, verilerinizin boyutunu küçültmenize ve verilerin kendisine dayalı daha iyi bir mesafe ölçümü 
+bulmanıza yardımcı olabilir. Kayıp fonksiyonunun dışbükey olmaması nedeniyle NCA'nın eğitilmesi zor olabilir ve PCA, 
+etiketleri girdi olarak kullanmadığı için veya girdi verilerinin dağılımına ilişkin diğer varsayımlar nedeniyle muhtemelen 
+iyi performans gösteremez.
